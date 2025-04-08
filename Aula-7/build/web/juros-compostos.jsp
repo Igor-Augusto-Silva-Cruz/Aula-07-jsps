@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" language="java" %> 
-<%@ include file="WEB-INF/jspf/Menu.jspf" %>  
+
 <html>
 <head>
     <title>Juros Compostos</title> 
@@ -15,6 +15,7 @@
     </style>
 </head>
 <body>
+<%@ include file="WEB-INF/jspf/Menu.jspf" %>  
     <h2>Cálculo de Juros Compostos</h2>
     <form method="post"> 
         Montante: <input type="number" name="montante" required><br> 
